@@ -37,7 +37,9 @@ CREATE TABLE encargados(
 
 CREATE TABLE sedes(
     id_sede INT PRIMARY KEY AUTO_INCREMENT,
+    id_encargado INT,
     nombre_sede VARCHAR(90) NOT NULL,
     capacidad VARCHAR(50) NOT NULL,
-    ubicacion VARCHAR(150) NOT NULL
+    ubicacion VARCHAR(150) NOT NULL,
+    Foreign Key (id_encargado) REFERENCES encargados(id_encargado)
 )Engine=InnoDB;
