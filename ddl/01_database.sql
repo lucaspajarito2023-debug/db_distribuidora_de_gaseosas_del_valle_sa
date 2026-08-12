@@ -1,2 +1,0 @@
-CREATE DATABASE distribuidora_de_gaseosas_del_valle;
-USE distribuidora_de_gaseosas_del_valle;
