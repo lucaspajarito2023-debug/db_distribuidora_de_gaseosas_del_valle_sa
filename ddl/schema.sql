@@ -30,14 +30,14 @@ CREATE TABLE productos(
 )Engine=innoDB;
 
 /* Tabla encargados y sedes*/
-CREATE TABLE encargados(
-    id_incargado INT PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE encargados (
+    id_encargado INT PRIMARY KEY AUTO_INCREMENT,
     nombre VARCHAR(90) NOT NULL
 )Engine=InnoDB;
 
 CREATE TABLE sedes(
     id_sede INT PRIMARY KEY AUTO_INCREMENT,
-    id_encargado INT,
+    id_encargado INT NOT NULL,
     nombre_sede VARCHAR(90) NOT NULL,
     capacidad VARCHAR(50) NOT NULL,
     ubicacion VARCHAR(150) NOT NULL,
