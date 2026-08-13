@@ -16,7 +16,7 @@ INSERT INTO productos ( nombre, id_categoria, stock_actual, stock_minimo, volume
     ('7UP 355 ml',1,90,15,355.00,5.20), 
     ('7UP 600 ml',1,115,20,600.00,6.80), 
     ('Mirinda Naranja 355 ml',1,85,15,355.00,5.10), 
-    }('Mirinda Naranja 600 ml',1,110,20,600.00,6.70), 
+    ('Mirinda Naranja 600 ml',1,110,20,600.00,6.70), 
     ('Agua Pura 500 ml',3,200,40,500.00,3.50), 
     ('Agua Pura 1 L',3,180,35,1000.00,5.00), 
     ('Agua Pura 1.5 L',3,160,30,1500.00,6.50), 
