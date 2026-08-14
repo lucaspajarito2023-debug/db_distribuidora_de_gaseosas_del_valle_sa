@@ -1,5 +1,5 @@
 INSERT INTO productos (nombre, id_categoria, stock_actual, stock_minimo, volumen_ml, precio) VALUES
-('Cola Clasica 250ml', 1, 120, 20, 250, 1800.00),
+('Cola Clasica 250ml', 1, 10, 20, 250, 1800.00),
 ('Cola Clasica 350ml', 1, 95, 20, 350, 2500.00),
 ('Cola Clasica 600ml', 1, 80, 15, 600, 3500.00),
 ('Cola Clasica 1L', 1, 60, 10, 1000, 5000.00),
@@ -8,7 +8,7 @@ INSERT INTO productos (nombre, id_categoria, stock_actual, stock_minimo, volumen
 ('Naranja Fresh 1L', 2, 45, 10, 1000, 5200.00),
 ('Limon Splash 300ml', 3, 100, 20, 300, 2000.00),
 ('Limon Splash 500ml', 3, 70, 15, 500, 3000.00),
-('Limon Splash 1L', 3, 40, 10, 1000, 5300.00),
+('Limon Splash 1L', 3, 4, 10, 1000, 5300.00),
 ('Agua Citrus 350ml', 4, 150, 30, 350, 1600.00),
 ('Agua Citrus 600ml', 4, 140, 25, 600, 2200.00),
 ('Agua Citrus 1L', 4, 100, 20, 1000, 3200.00),
