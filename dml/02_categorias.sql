@@ -1,10 +1,16 @@
-INSERT INTO categorias (nombre_categoria)
- VALUES 
- ('Gaseosas'), ('Jugos'), 
- ('Agua Purificada'), ('Energizantes'), 
- ('Té Frío'), ('Bebidas Deportivas'), 
- ('Agua Saborizada'), ('Refrescos'), 
- ('Bebidas Isotónicas'), ('Bebidas Carbonatadas'), 
- ('Bebidas Light'), ('Bebidas Zero Azúcar'), 
- ('Bebidas Premium'), ('Bebidas Familiares'), 
- ('Bebidas Importadas');
+INSERT INTO categorias (nombre_categoria) VALUES
+('Cola'),
+('Naranja'),
+('Limon'),
+('Agua saborizada'),
+('Energetica'),
+('Te helado'),
+('Isotonica'),
+('Uva'),
+('Manzana'),
+('Tropical'),
+('Toronja'),
+('Ginger Ale'),
+('Soda'),
+('Agua mineral'),
+('Cafe frio');
