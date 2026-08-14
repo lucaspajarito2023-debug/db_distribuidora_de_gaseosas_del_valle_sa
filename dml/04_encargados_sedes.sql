@@ -1,7 +1,11 @@
-INSERT INTO encargados (nombre)
- VALUES ('Carlos Méndez'), ('Ana López'),
-  ('José Ramírez'), ('María González'), 
-  ('Luis Hernández'), ('Patricia Morales'), 
-  ('Jorge Castillo'), ('Sofía Pérez'), 
-  ('Ricardo Alvarado'), ('Daniela Ruiz'), 
-  ('Fernando Aguilar'), ('Gabriela Soto');
+INSERT INTO encargados (nombre) VALUES
+('Carlos Martinez'),
+('Ana Rodriguez'),
+('Luis Gomez'),
+('Maria Fernandez'),
+('Jorge Herrera'),
+('Paula Castillo'),
+('Ricardo Torres'),
+('Daniela Ruiz'),
+('Fernando Lopez'),
+('Valentina Morales');
